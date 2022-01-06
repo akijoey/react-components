@@ -14,9 +14,9 @@ React components with custom styles.
 
 [MIT][license-url] © AkiJoey
 
-[npm-image]: https://img.shields.io/npm/v/@akijoey/react-components
+[npm-image]: https://img.shields.io/npm/v/@akijoey/webapp
 [npm-url]: https://www.npmjs.com/package/@akijoey/react-components
-[build-image]: https://www.travis-ci.org/akijoey/react-components.svg?branch=master
-[build-url]: https://www.travis-ci.org/akijoey/react-components
+[build-image]: https://img.shields.io/github/workflow/status/akijoey/react-components/Build
+[build-url]: https://github.com/akijoey/react-components/actions/workflows/build.yml
 [license-image]: https://img.shields.io/github/license/akijoey/react-components
-[license-url]: https://github.com/akijoey/react-components/blob/master/LICENSE
+[license-url]: https://github.com/akijoey/react-components/blob/main/LICENSE

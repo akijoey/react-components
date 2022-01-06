@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 import classNames from 'classnames'
 
@@ -16,7 +16,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 const Dialog: React.FC<Props> = props => {
   const { visible, children, title, onClose, className, ...restProps } = props
   const dialog = visible ? (
-    <Fragment>
+    <>
       <Mask visible={visible} onClick={onClose} />
       <div className={classNames(prefix, className)} {...restProps}>
         <header>
@@ -25,7 +25,7 @@ const Dialog: React.FC<Props> = props => {
         </header>
         {children}
       </div>
-    </Fragment>
+    </>
   ) : null
   return ReactDOM.createPortal(dialog, document.body)
 }

@@ -11,7 +11,7 @@ const Icon: React.FC<Props> = props => {
   const { name, className, ...restProps } = props
   const fileName = `${name}.svg`
   const ctx = require.context(
-    '@svgr/webpack?-svgo,+titleProp,+ref!@akijoey/react-components/assets/icons/',
+    '@svgr/webpack!@akijoey/react-components/assets/icons/?custom',
     false,
     /\.svg$/
   )
@@ -21,8 +21,8 @@ const Icon: React.FC<Props> = props => {
   const module =
     key !== undefined
       ? ctx(key)
-      : require(`@svgr/webpack?-svgo,+titleProp,+ref!@/assets/icons/${fileName}`)
-  const Svg = module.ReactComponent
+      : require(`@svgr/webpack!@/assets/icons/${fileName}?custom`)
+  const Svg = module.default
   return (
     <Svg
       className={classNames(prefix, className)}

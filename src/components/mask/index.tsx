@@ -11,7 +11,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 const Mask: React.FC<Props> = props => {
   const { visible, className, ...restProps } = props
   const mask = props.visible && (
-    <div className={classNames(prefix, className)} {...restProps}></div>
+    <div className={classNames(prefix, className)} {...restProps} />
   )
   return ReactDOM.createPortal(mask, document.body)
 }

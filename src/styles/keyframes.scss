@@ -1,8 +1,9 @@
 @keyframes zoom-in {
   from {
-    transform: scale(0.1, 0.1);
     opacity: 0;
+    transform: scale(0.1, 0.1);
   }
+
   to {
     opacity: 1;
   }
@@ -12,6 +13,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -19,11 +21,12 @@
 
 @keyframes fade-in-bottom {
   from {
-    transform: translateY(100%);
     opacity: 0;
+    transform: translateY(100%);
   }
+
   to {
-    transform: translateY(0);
     opacity: 1;
+    transform: translateY(0);
   }
 }

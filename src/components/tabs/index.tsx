@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, { useState } from 'react'
 import classNames from 'classnames'
 
 import Menus, { Menu } from '../menus'
@@ -63,7 +63,7 @@ const Tabs: React.FC<
     return list
   }
   return (
-    <Fragment>
+    <>
       <Menus
         defaultActive={defaultActive}
         activeKey={activeKey ?? active}
@@ -80,7 +80,7 @@ const Tabs: React.FC<
           })
         })}
       </div>
-    </Fragment>
+    </>
   )
 }
 

@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/akijoey/react-components/compare/v1.0.0...v1.0.1) (2022-04-06)
+
+
+### Bug Fixes
+
+* component style ([10421ae](https://github.com/akijoey/react-components/commit/10421ae33e316f27a546a41cd7dcfa0e7fae69a8))
+
 # 1.0.0 (2022-01-06)
 
 

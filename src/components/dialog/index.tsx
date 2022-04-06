@@ -15,18 +15,23 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 
 const Dialog: React.FC<Props> = props => {
   const { visible, children, title, onClose, className, ...restProps } = props
-  const dialog = visible ? (
+  const dialog = (
     <>
       <Mask visible={visible} onClick={onClose} />
-      <div className={classNames(prefix, className)} {...restProps}>
+      <div
+        className={classNames(prefix, className, {
+          [`${prefix}-hidden`]: !visible
+        })}
+        {...restProps}
+      >
         <header>
-          {title !== undefined && <h1>{title}</h1>}
+          {title !== undefined && <span>{title}</span>}
           <Icon name="close" onClick={onClose} />
         </header>
         {children}
       </div>
     </>
-  ) : null
+  )
   return ReactDOM.createPortal(dialog, document.body)
 }
 

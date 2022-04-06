@@ -19,6 +19,16 @@
   }
 }
 
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
 @keyframes fade-in-bottom {
   from {
     opacity: 0;

@@ -3,7 +3,7 @@ $prefix: 'rc-tabs';
 .#{$prefix} {
   position: relative;
   width: 100%;
-  height: calc(100% - 45px);
+  height: calc(100% - 2rem);
   overflow: hidden;
   background-color: #fff;
   outline: 0;

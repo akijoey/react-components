@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/akijoey/react-components/compare/v1.0.1...v1.1.0) (2022-04-12)
+
+
+### Features
+
+* icon assets ([7b2288a](https://github.com/akijoey/react-components/commit/7b2288a0e64e1617377c7a5bf810dec682a2ea31))
+
 ## [1.0.1](https://github.com/akijoey/react-components/compare/v1.0.0...v1.0.1) (2022-04-06)
 
 

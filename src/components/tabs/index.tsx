@@ -56,7 +56,7 @@ const Tabs: React.FC<
     if (onEdit !== undefined) {
       list.push(
         <Menu key={length}>
-          <Icon name="add" />
+          <Icon name="plus" />
         </Menu>
       )
     }

@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/akijoey/react-components/compare/v1.1.0...v1.2.0) (2022-04-15)
+
+
+### Features
+
+* minus icon ([6d73df3](https://github.com/akijoey/react-components/commit/6d73df3dbfb7ac7aab2aeff33e281464d22be821))
+
 # [1.1.0](https://github.com/akijoey/react-components/compare/v1.0.1...v1.1.0) (2022-04-12)
 
 
